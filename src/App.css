@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+
+.flex-container {
+  padding: 100px;
+  background-color:#e0ae07;
+  margin-top: 100px;
+  height: 128px;  
+  overflow: hidden;
+
+}
+.img{
+  width: 400px;
+  height: 300px;
+  margin-left:270px;
+  margin-top: -150px;
+  position: absolute;
+}
+.heading {
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  background-color: #032e5c;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn:hover {
+  background-color: #0976ebd5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.parallelogram {
+	width: 872px;
+	height: 328px;
+	transform: skew(-52deg);
+	background:#032e5c;
+  margin-top: -226px;  
+  margin-left: 700px;
+  } 
+.img2{
+  width: 20px;
+  margin-left: -76px;
+  margin-top: 11px;
 }

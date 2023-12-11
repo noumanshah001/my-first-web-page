@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import student from './Images/student.webp';
+import arrow from './Images/download.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="flex-container">
+      <h1 className='heading '>Leaders Of The Future</h1>
+     <button className='btn'>Register Now</button>
+     
+    
+    <div class="parallelogram"></div>
+    <div className='img'>
+    <img className ="img" src={student} alt="new/src/imgstudent.webp"></img>
+    <div className='img2'>
+    <img className='img2' src={arrow} alt="new/src/Images/download.png"></img>
     </div>
+     </div>
+    </div>
+    
   );
 }
 
